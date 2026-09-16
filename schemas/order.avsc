@@ -1,0 +1,14 @@
+{
+  "type": "record",
+  "name": "Order",
+  "namespace": "com.platform.orders",
+  "fields": [
+    {"name": "order_id",   "type": "int"},
+    {"name": "user_id",    "type": "string"},
+    {"name": "item",       "type": "string"},
+    {"name": "amount",     "type": "double"},
+    {"name": "category",   "type": "string"},
+    {"name": "created_at", "type": "string"},
+    {"name": "source",     "type": ["null", "string"], "default": null}
+  ]
+}
